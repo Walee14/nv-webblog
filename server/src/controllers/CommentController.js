@@ -32,7 +32,7 @@ async put (req, res) {
  }
  })
  res.send(req.body)
-} catch (err) {
+ } catch (err) {
     req.status(500).send({
         error: 'Update comment incorrect'
         })
